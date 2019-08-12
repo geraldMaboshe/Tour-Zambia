@@ -1,10 +1,18 @@
 import React from 'react';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Header from './components/Header';
+import Section from './components/Section';
+import Footer from './components/Footer';
+
+
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello Project</h1>
+      <Header />
+      <Section />
+      <Footer />
     </div>
   );
 }
