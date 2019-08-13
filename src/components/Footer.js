@@ -4,10 +4,14 @@ export class Footer extends Component {
     render() {
         return (
             <div class='Footer'>
-                <h1>This is footer</h1>
+                <p style={pStyle}>&copy; 2019. SICT</p>
             </div>
         )
     }
 }
 
 export default Footer
+const pStyle ={
+    textAlign: 'center',
+    padding: '30px'
+}

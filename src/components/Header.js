@@ -68,8 +68,3 @@ export class Header extends Component {
 
 export default Header
 
-const headerStyle = {
-    backgroundColor: 'grey',
-    backgroundSize: 'cover',
-    height: '550px',
-}
